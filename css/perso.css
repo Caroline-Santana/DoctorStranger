@@ -1,0 +1,13 @@
+:root{
+    --accent-color: #FF031A;
+  }
+  
+  
+  body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 0 128px;
+    
+ }
