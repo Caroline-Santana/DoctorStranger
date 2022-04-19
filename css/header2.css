@@ -22,6 +22,21 @@ header{
     display: flex;
     width: 5px;
   }
+  .subtitulo-container{
+    position: absolute;
+    width: 327px;
+    height: 68px;
+    left: 53px;
+    top: 155px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    
+    color: #FFFFFF;
+  }
   
   
   .links-container a{
@@ -32,29 +47,4 @@ header{
   .links-container a:hover{
     background-color: var(--accent-color);
     transition: all 1s;
-  }
-
-  @media (max-width: 768px){
-    header{
-      height: 70px;
-    }
-    .links-container{
-      background-color: #000;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left:0;
-      right: 0;
-      bottom: 0;
-      flex-direction: column;
-      justify-content: center;
-      gap: 65px;
-      font-size: 2.5rem;
-      font-weight: 300;
-      transform: translate(100%);
-      transition: all 1s;
-    }
-    .menu-burger-container.show ~ .links-container{
-      transform: translate(0);
-    }
   }
